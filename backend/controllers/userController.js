@@ -69,7 +69,7 @@ const loginUser = async (req, res) => {
 
 // currently logged in user info
 const getCurrentUser = async (req, res) => {
-  res.send("will get the current user");
+  res.send("will get the single user data for admin");
 };
 
 module.exports = { getAllUsers, createNewUser, getCurrentUser, loginUser };
