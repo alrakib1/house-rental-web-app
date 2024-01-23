@@ -5,7 +5,7 @@ const express = require('express');
 
 const router = express.Router();
 
-router.route('/users').get(getAllUsers);
+router.route('/').get(getAllUsers);
 
 router.route('/register').post(createNewUser);
 
