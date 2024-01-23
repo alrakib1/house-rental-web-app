@@ -1,12 +1,12 @@
-const House = require("../models/House")
+const House = require("../models/House");
 
+// get all House
+const getAllHouse = async (req, res) => {
+  res.send("will get all house from here");
+};
 
+const addNewHouse = async (req, res) => {
+  res.send("will add new house here");
+};
 
-
-// get all House 
-
-
-
-const addNewHouse = async(req,res)=>{
-
-}
+module.exports = { getAllHouse, addNewHouse };
