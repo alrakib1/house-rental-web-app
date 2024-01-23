@@ -11,7 +11,7 @@ router.route('/register').post(createNewUser);
 
 router.route('/login').post(loginUser);
 
-router.route('/:id').get(getCurrentUser)
+// router.route('/:id').get(getCurrentUser)
 
 
 module.exports = router;

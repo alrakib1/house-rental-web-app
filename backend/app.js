@@ -17,6 +17,6 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/v1", userRouter);
-app.use("api/v1/house", houseRouter);
+app.use("/api/v1/house", houseRouter);
 
 module.exports = app;
